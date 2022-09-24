@@ -8,18 +8,17 @@
 ******************************************************* 
 *************************************************************** */
 
-
-
-.footer{
-    &__left{
-        & p{
+.footer {
+    &__left {
+        & p {
             font-size: 14px;
             text-transform: uppercase;
             color: $white;
         }
     }
-    &__right{
-        & a{
+
+    &__right {
+        & a {
             padding-left: 30px;
             color: $white;
             font-size: 16px;

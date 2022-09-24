@@ -1709,6 +1709,34 @@ textarea:focus::placeholder {
 22. Contact
 ******************************************************* 
 *************************************************************** */
+.contact p {
+  font-size: 18px;
+  color: #687074;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+.contact .link {
+  font-size: 16px;
+  color: #bea44d;
+  text-decoration: none;
+}
+.contact .link i {
+  display: inline-block;
+  margin-right: 5px;
+}
+.contact .contact-widget h4 {
+  font-size: 22px;
+  margin-bottom: 50px;
+  font-weight: 700;
+}
+.contact__links a {
+  display: block;
+  text-decoration: none;
+  color: #08526d;
+  line-height: 30px;
+  font-size: 16px;
+}
+
 /*
 ************
 *************************
