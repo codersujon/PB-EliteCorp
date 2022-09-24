@@ -1,0 +1,48 @@
+@use '../abstracts/mixins'as *;
+@use '../abstracts/variables'as *;
+
+/*
+************
+*************************
+22. Slider
+******************************************************* 
+*************************************************************** */
+
+.slider {
+    &__single {
+        z-index: 10;
+
+        & h1 {
+            font-size: 70px;
+            color: #fefefe;
+            line-height: 90px;
+
+            & span {
+                padding: 5px;
+            }
+        }
+    }
+
+    &__counter {
+        color: $white;
+
+        &__item {
+            & i {
+                font-size: 70px;
+                margin-bottom: 10px;
+            }
+
+            & span {
+                display: block;
+                font-size: 35px;
+                font-weight: 900;
+            }
+
+            & h5 {
+                font-size: 15px;
+                font-style: italic;
+                color: $white;
+            }
+        }
+    }
+}

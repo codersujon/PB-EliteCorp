@@ -1,0 +1,40 @@
+@use '../abstracts/mixins'as *;
+@use '../abstracts/variables'as *;
+
+/*
+************
+*************************
+22. Header
+******************************************************* 
+*************************************************************** */
+
+.header-top {
+    & .social-info {
+        color: $theme-color;
+
+        & span {
+            margin-left: 5px;
+        }
+    }
+}
+
+
+.header {
+    &__menu {
+        & ul {
+            & li {
+                & a {
+                    color: #252323;
+                    display: inline-block;
+                    padding: 0 20px;
+                    text-decoration: none;
+
+                    &:hover {
+                        color: $theme-color;
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}

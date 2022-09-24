@@ -6,27 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Site Title -->
     <title>EliteCorp</title>
-    <!-- ICO FONT -->
-    <link rel="stylesheet" href="assets/css/icofont.min.css" type="text/css">
+    <!-- CSS Here -->
     <!-- Bootstrap -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/icofont.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/odometer.min.css">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <link rel="stylesheet" href="assets/css/meanmenu.css">
+    <link rel="stylesheet" href="assets/css/swipper.css">
     <!-- Main Style -->
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
     <!-- Header Start -->
     <header class="header" id="home">
-        <div class="header-top">
+        <div class="header-top grey-bg pt-15 pb-15">
             <div class="container">
                 <div class="row">
                     <div class="col-12 social-info d-flex justify-content-end">
-                        <div class="phone -2">
-                            <i class="fa-solid fa-phone"></i>
-                            000 123 456 789
+                        <div class="phone">
+                            <i class="fas fa-phone"></i>
+                            <span>000 123 456 789</span>
                         </div>
-                        <div class="email">
-                            <i class="fa-solid fa-envelope"></i>
-                            name@email.com
+                        <div class="email ml-10 text-uppercase">
+                            <i class="fas fa-envelope ml-20"></i>
+                            <span>name@email.com</span>
                         </div>
                     </div>
                 </div>
@@ -34,9 +41,9 @@
         </div>
         <div class="header__main">
             <div class="container">
-                <div class="row">
+                <div class="row d-flex align-items-center">
                     <div class="col-md-2">
-                        <div class="header__logo">
+                        <div class="header__logo pt-25 pb-25">
                             <a href="index.html">
                                 <img src="assets/img/logo.png" alt="EliteCorp-Logo">
                             </a>
@@ -46,11 +53,21 @@
                         <div class="header__menu float-end">
                             <nav>
                                 <ul class="main-menu list-inline ">
-                                    <li class="list-inline-item"><a href="#home" class="text-uppercase text-decoration-none">home</a></li>
-                                    <li class="list-inline-item"><a href="#about" class="text-uppercase text-decoration-none">about</a></li>
-                                    <li class="list-inline-item"><a href="#work" class="text-uppercase text-decoration-none">work</a></li>
-                                    <li class="list-inline-item"><a href="#blog" class="text-uppercase text-decoration-none">blog</a></li>
-                                    <li class="list-inline-item"><a href="#contact" class="text-uppercase text-decoration-none">contact</a></li>
+                                    <li class="list-inline-item">
+                                        <a href="#home" class="text-uppercase">home</a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="#about" class="text-uppercase">about</a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="#work" class="text-uppercase">work</a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="#blog" class="text-uppercase">blog</a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="#contact" class="text-uppercase">contact</a>
+                                    </li>
                                 </ul>
                             </nav>
                         </div>
@@ -62,31 +79,33 @@
     <!-- Header End -->
     <!-- Main Start -->
     <main>
-        <section class="slider container">
-            <div class="row">
-                <div class="col-md-9">
-                    <div class="slider__single mt-200" >
-                        <h1>We’re an Independent <br> Design and  Development <br> Agency.</h1>
-                        <div class="slider__counter d-flex">
-                            <div class="slider__counter__item text-center">
-                                <i class="icofont-user-suited"></i>
-                                <span>624</span>
-                                <h5>happy clients</h5>
-                            </div>
-                            <div class="slider__counter__item text-center">
-                                <i class="icofont-tree-alt"></i>
-                                <span>112</span>
-                                <h5>happy clients</h5>
-                            </div>
-                            <div class="slider__counter__item text-center">
-                                <i class="icofont-briefcase"></i>
-                                <span>595</span>
-                                <h5>happy clients</h5>
-                            </div>
-                            <div class="slider__counter__item text-center">
-                                <i class="icofont-comment"></i>
-                                <span>09</span>
-                                <h5>happy clients</h5>
+        <section class="slider pt-80 pb-60" data-background="assets/img/home-bg.jpg" data-overlay="light" data-opacity="1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9">
+                        <div class="slider__single mt-200 position-relative" >
+                            <h1 class="mb-100">We’re an Independent <br> Design and  <span class="theme-color bg-white">Development</span> <br> Agency.</h1>
+                            <div class="slider__counter d-flex">
+                                <div class="slider__counter__item mr-100 text-center">
+                                    <i class="fas fa-user-tie"></i>
+                                    <span>624</span>
+                                    <h5>happy clients</h5>
+                                </div>
+                                <div class="slider__counter__item mr-100 text-center">
+                                    <i class="fas fa-tree-palm"></i>
+                                    <span>112</span>
+                                    <h5>happy clients</h5>
+                                </div>
+                                <div class="slider__counter__item mr-100 text-center">
+                                    <i class="fas fa-briefcase"></i>
+                                    <span>595</span>
+                                    <h5>happy clients</h5>
+                                </div>
+                                <div class="slider__counter__item mr-100 text-center">
+                                    <i class="fas fa-comment-alt"></i>
+                                    <span>09</span>
+                                    <h5>happy clients</h5>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -336,10 +355,20 @@
         </div>
     </footer>
     <!-- Footer End -->
-    <!-- JS Files -->
-    <!-- Bootstrap -->
+    <!-- JS Here -->
+    <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <!-- Main JS -->
+    <script src="assets/js/swipper-bundle.min.js"></script>
+    <script src="assets/js/jquery.meanmenu.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <script src="assets/js/jquery.scrollUp.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/odometer.min.js"></script>
+    <script src="assets/js/appear.min.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
 </html>
+
+
+ 
