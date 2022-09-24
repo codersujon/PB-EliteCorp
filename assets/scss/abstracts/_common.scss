@@ -71,8 +71,7 @@ h5,
 h6 {
     font-family: $lato;
     color: $black;
-    margin-top: 0px;
-    font-weight: 500;
+    font-weight: 900;
     text-transform: capitalize;
     margin-bottom: 15px;
     letter-spacing: .25px;
@@ -117,9 +116,9 @@ ul {
 }
 
 p {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: normal;
-    line-height: 26px;
+    line-height: 24px;
     color: $body-text-color;
     margin-bottom: 15px;
 }
@@ -343,6 +342,10 @@ textarea:focus::placeholder {
 
 .theme-bg {
     background: $theme-color;
+}
+
+.bg-light {
+    background-color: rgb(249, 237, 213);
 }
 
 /* <<<<<<<    Color     >>>>>>>>> */

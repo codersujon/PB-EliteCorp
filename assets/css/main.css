@@ -48,7 +48,7 @@ body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: #252323;
+  color: #687074;
   font-size: 14px;
 }
 
@@ -70,8 +70,7 @@ h5,
 h6 {
   font-family: "Lato", sans-serif;
   color: #1a213e;
-  margin-top: 0px;
-  font-weight: 500;
+  font-weight: 900;
   text-transform: capitalize;
   margin-bottom: 15px;
   letter-spacing: 0.25px;
@@ -116,15 +115,15 @@ ul {
 }
 
 p {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: normal;
-  line-height: 26px;
-  color: #252323;
+  line-height: 24px;
+  color: #687074;
   margin-bottom: 15px;
 }
 
 hr {
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #916c02;
   border-top: 0 none;
   margin: 30px 0;
   padding: 0;
@@ -140,69 +139,69 @@ label {
 }
 
 *::-moz-selection {
-  background-color: #000;
+  background-color: #916c02;
   color: #fff;
   text-shadow: none;
 }
 
 ::-moz-selection {
-  background-color: #000;
+  background-color: #916c02;
   color: #fff;
   text-shadow: none;
 }
 
 ::selection {
-  background-color: #000;
+  background-color: #916c02;
   color: #fff;
   text-shadow: none;
 }
 
 /* <<<<<<<    Input Placeholder   >>>>>>>>> */
 input::-webkit-input-placeholder {
-  color: #252323;
+  color: #687074;
   font-size: 16px;
   opacity: 1;
   transition: 0.5s;
 }
 input:-moz-placeholder {
-  color: #252323;
+  color: #687074;
   font-size: 16px;
   opacity: 1;
   transition: 0.5s;
 }
 input::-moz-placeholder {
-  color: #252323;
+  color: #687074;
   font-size: 16px;
   opacity: 1;
   transition: 0.5s;
 }
 input:-ms-input-placeholder {
-  color: #252323;
+  color: #687074;
   font-size: 16px;
   opacity: 1;
   transition: 0.5s;
 }
 
 textarea::-webkit-input-placeholder {
-  color: #252323;
+  color: #687074;
   font-size: 16px;
   opacity: 1;
   transition: 0.5s;
 }
 textarea:-moz-placeholder {
-  color: #252323;
+  color: #687074;
   font-size: 16px;
   opacity: 1;
   transition: 0.5s;
 }
 textarea::-moz-placeholder {
-  color: #252323;
+  color: #687074;
   font-size: 16px;
   opacity: 1;
   transition: 0.5s;
 }
 textarea:-ms-input-placeholder {
-  color: #252323;
+  color: #687074;
   font-size: 16px;
   opacity: 1;
   transition: 0.5s;
@@ -234,7 +233,7 @@ textarea:focus::placeholder {
 }
 
 [data-overlay=dark]::before {
-  background-color: #000;
+  background-color: #916c02;
 }
 
 [data-overlay=soft]::before {
@@ -1575,6 +1574,10 @@ textarea:focus::placeholder {
   background: #bea44d;
 }
 
+.bg-light {
+  background-color: rgb(249, 237, 213);
+}
+
 /* <<<<<<<    Color     >>>>>>>>> */
 .white-color {
   color: #fff;
@@ -1658,12 +1661,36 @@ textarea:focus::placeholder {
 22. Section Title
 ******************************************************* 
 *************************************************************** */
+.section-title h2 {
+  font-size: 42px;
+  color: #916c02;
+}
+.section-title p {
+  font-size: 18px;
+  line-height: 30px;
+}
+
 /*
 ************
 *************************
 22. Services
 ******************************************************* 
 *************************************************************** */
+.services__item i {
+  font-size: 25px;
+  color: #bea44d;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border: 1px solid #dbcea0;
+  background-color: #f9f8f3;
+  border-radius: 50%;
+}
+.services__item h4 {
+  font-size: 20px;
+  color: #bea44d;
+}
+
 /*
 ************
 *************************
@@ -1682,5 +1709,21 @@ textarea:focus::placeholder {
 22. Contact
 ******************************************************* 
 *************************************************************** */
+/*
+************
+*************************
+22. Footer
+******************************************************* 
+*************************************************************** */
+.footer__left p {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.footer__right a {
+  padding-left: 30px;
+  color: #fff;
+  font-size: 16px;
+}
 
 /*# sourceMappingURL=main.css.map */
