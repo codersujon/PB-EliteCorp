@@ -10,20 +10,21 @@
 
 .contact {
     & p {
-        font-size: 18px;
+        font-size: 16px;
         color: #687074;
         line-height: 30px;
         margin-bottom: 10px;
     }
 
-    & .link{
+    & .link {
         font-size: 16px;
         color: $theme-color;
         text-decoration: none;
-       & i{
+
+        & i {
             display: inline-block;
             margin-right: 5px;
-       }
+        }
     }
 
     & .contact-widget {
