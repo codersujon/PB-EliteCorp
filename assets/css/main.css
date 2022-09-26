@@ -1311,26 +1311,6 @@ p {
     padding-right: 175px;
 }
 
-.pr-180 {
-    padding-right: 180px;
-}
-
-.pr-185 {
-    padding-right: 185px;
-}
-
-.pr-190 {
-    padding-right: 190px;
-}
-
-.pr-195 {
-    padding-right: 195px;
-}
-
-.pr-200 {
-    padding-right: 200px;
-}
-
 .bg-primary {
     background-color: var(--primary-color) !important;
 }
@@ -1365,13 +1345,13 @@ p {
     color: #252323;
     margin-left: 40px;
     font-size: 14px;
+    transition: .3s;
 }
 
 .nav-item .nav-link.active,
 .nav-item .nav-link:hover {
     color: var(--primary-color);
     text-decoration: underline;
-    font-weight: 400;
     font-size: 14px;
 }
 
@@ -1380,15 +1360,12 @@ p {
     background-image: url('../img/home-bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 100px;
-    padding-bottom: 150px;
 }
 
 .slider__single h1 {
     font-size: 70px;
-    color: #fefefe;
+    color: var(--white);
     line-height: 90px;
-    margin-bottom: 50px;
 }
 
 .slider__single h1 span {
@@ -1397,46 +1374,35 @@ p {
     background-color: var(--bg-light);
 }
 
-.slider__counter {
-    color: #fff;
-}
-
-.slider__counter__item {
-    margin-right: 50px;
-}
-
 .slider__counter__item i {
     font-size: 40px;
     margin-bottom: 10px;
 }
 
 .slider__counter__item span {
-    display: block;
     font-size: 35px;
     font-weight: 900;
 }
 
 .slider__counter__item h5 {
-    font-size: 15px;
-    font-style: italic;
-    color: #fff;
+    font-size: 14px;
 }
 
 .carousel-indicators {
-    margin-bottom: 4rem;
+    margin-bottom: 80px;
 }
 
 .carousel-indicators [data-bs-target] {
     width: 15px;
     height: 15px;
     line-height: 15px;
-    border: 2px solid #fff;
+    border: 2px solid var(--white);
     background: transparent;
     border-radius: 50%;
 }
 
 .carousel-indicators button.active {
-    background-color: #fff;
+    background-color: var(--white);
 }
 
 /* ABOUT START */
@@ -1446,8 +1412,8 @@ p {
     width: 60px;
     height: 60px;
     line-height: 60px;
-    border: 1px solid #dbcea0;
-    background-color: #f9f8f3;
+    border: 1px solid var(--primary-color);
+    background-color: var(--bg-light);
     border-radius: 50%;
 }
 
@@ -1456,183 +1422,131 @@ p {
     color: var(--primary-color);
 }
 
+/* FEATURED WORK START */
+.carousel-control-prev,
+.carousel-control-next {
+    width: 65px;
+    height: 65px;
+    border: 1px solid var(--secondary-color);
+    color: var(--secondary-color);
+    border-radius: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    background-color: var(--secondary-color);
+}
+
+.carousel-control-prev i,
+.carousel-control-next i {
+    font-size: 35px;
+}
+
+.carousel-control-prev {
+    left: -2%;
+}
+
+.carousel-control-next {
+    right: -2%;
+}
 
 /* BLOG START */
 .blog__item__content h3 {
     font-size: 20px;
-    padding-top: 15px;
-    padding-bottom: 10px;
     line-height: 30px;
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 .blog__item__content span {
-    margin-bottom: 8px;
     color: #929fa5;
 }
 
 .blog__item__content p {
     font-size: 16px;
-    color: #687074;
+    color: var(--body-text-color);
 }
 
 .blog__btn a {
     color: var(--primary-color);
-    font-weight: 700;
-    margin-top: 6px;
-    text-decoration: none;
 }
-
 
 /* GET IN TOUCH START */
 .getIn__left,
 .getIn__right {
     box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.15);
-    padding: 35px 21px;
+    padding: 35px 25px;
 }
 
 .getIn__right input,
 .getIn__right textarea {
+    font-size: 16px;
+    color: var(--secondary-color);
+    background: #fffaef;
     border: 1px solid #ddd9cf;
     border-radius: 5px;
-    background: #fffaef;
     padding: 15px 25px;
-    font-size: 16px;
-    color: #000;
 }
 
 .getIn__right input {
-    height: 39px;
-    margin-bottom: 15px;
+    height: 50px;
 }
 
 .getIn__right textarea {
-    height: 200px;
-    margin-bottom: 25px;
-}
-
-.getIn__right button {
-    text-align: right;
+    height: 210px;
 }
 
 .getIn__btn button {
     font-size: 14px;
-    color: #fff;
+    color: var(--white);
     padding: 15px 40px;
-    background-color: #bea44d;
+    background-color: var(--primary-color);
     border: 0;
     border-radius: 5px;
     display: block;
     transition: 0.3s;
+    text-transform: capitalize;
 }
 
 .getIn__btn button:hover {
     background-color: #08526d;
 }
 
-.getIn__left {
-    padding: 25px 0;
-}
 
 /* CONTACT */
-.contact__about p {
-    margin-bottom: 10px;
-}
-
 .contact__about i,
 .contact__about a {
     color: var(--primary-color);
-    text-decoration: none;
-}
-
-.contact__about i {
-    margin-right: 6px;
 }
 
 .contact__widget h5 {
     font-size: 22px;
-    text-transform: capitalize;
-    font-weight: bold;
     line-height: 30px;
-    color: #131313;
+    color: #08526d;
 }
 
 .contact__widget ul li a {
     line-height: 30px;
-    text-decoration: none;
     color: #08526d;
-    text-transform: capitalize;
 }
 
 .contact__widget ul li a:hover {
     color: var(--secondary-color);
 }
 
-.contact__widget ul li a i {
-    margin-right: 5px;
-}
-
-
 
 /* FOOTER START */
 .footer {
-    padding: 29px;
-    border: 1px solid #a1a1a1;
+    padding: 30px 0;
 }
 
 .footer__socials a {
-    margin-left: 30px;
     font-size: 14px;
     color: var(--bg-light);
+    transition: .3s;
 }
 
-
-
-.carousel-control-prev,
-.carousel-control-next {
-    width: 60px;
-    height: 60px;
-    border: 2px solid var(--secondary-color);
-    color: var(--secondary-color);
-    border-radius: 5px;
-    top: calc(50% - 25px);
-}
-
-.carousel-control-next-icon,
-.carousel-control-prev-icon {
-    background-image: none;
-    position: relative;
-}
-
-.carousel-control-next-icon::before {
-    position: absolute;
-    content: "\f105";
-    top: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-}
-
-.carousel-control-prev {
-    position: absolute;
-    left: -5%;
-}
-
-.carousel-control-prev:hover {
-    left: -5%;
-    background-color: var(--secondary-color);
-}
-
-.carousel-control-next {
-    right: -5%;
-}
-
-.carousel-control-next:hover {
-    right: -5%;
-    background-color: var(--secondary-color);
-}
-
-.carousel-control-next-icon {
-    position: absolute;
-    content: '/f105' !important;
+.footer__socials a:hover{
+    color: #08526d;
 }
