@@ -1346,13 +1346,14 @@ p {
     margin-left: 40px;
     font-size: 14px;
     transition: .3s;
+    position: relative;
 }
 
 .nav-item .nav-link.active,
 .nav-item .nav-link:hover {
     color: var(--primary-color);
-    text-decoration: underline;
     font-size: 14px;
+    text-decoration: underline;
 }
 
 /* SLIDER */
@@ -1547,6 +1548,6 @@ p {
     transition: .3s;
 }
 
-.footer__socials a:hover{
+.footer__socials a:hover {
     color: #08526d;
 }
