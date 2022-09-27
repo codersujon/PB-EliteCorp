@@ -31,7 +31,7 @@
 
     .carousel-control-prev,
     .carousel-control-next {
-        display: block;
+        display: none;
     }
 
     .carousel-control-prev {
@@ -49,22 +49,11 @@
         display: block;
     }
 
-    .getIn__right input {
-        height: 39px;
-    }
-
-    .getIn__right textarea {
-        height: 103px;
+    .carousel-control-prev,
+    .carousel-control-next {
+        display: block;
     }
 }
 
 /*Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {
-    .getIn__right input {
-        height: 50px;
-    }
-
-    .getIn__right textarea {
-        height: 210px;
-    }
-}
+@media (min-width: 1200px) {}
