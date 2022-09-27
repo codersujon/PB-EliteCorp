@@ -1,7 +1,7 @@
 # PB-EliteCorp
 PencileBox EliteCorp PSD Convertion
-Instructor: Majidul Islam Majid
-Designer: MD.SUJAN AHMED
+### Instructor: Majidul Islam Majid
+### Designer: MD.SUJAN AHMED
 
 ## Site Deploy
 
